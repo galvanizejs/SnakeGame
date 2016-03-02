@@ -1,0 +1,62 @@
+/* 
+	STYLE.CSS:
+	One stylesheet to rule them all.
+	
+	selector { property:value }
+
+*/
+
+/* ----- =structure ----- */
+
+
+body {
+	background-color: #a6c196;
+		font-family: "Lucida Console", Monaco, monospace;
+
+}
+
+.wrapper {
+	width: 960px;
+	margin: auto;
+}
+.wrapper:after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+#canvas {
+	float: left;
+}
+#direction {
+	float: right;
+	width: 340px;
+}
+
+
+#code {
+   margin-top: 120px;	
+}
+
+
+
+input[type="text"] {
+  display: inline;
+  background-color: #99b28a;
+  border: none;
+  
+  
+  margin: 0;
+  width: 150px;
+  font-family: sans-serif;
+  font-size: 18px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+}
+input[type="text"]:focus {
+  outline: none;
+}
+
+
+button {
+margin-left: 140px;}
